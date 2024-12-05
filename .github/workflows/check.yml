@@ -48,5 +48,7 @@ jobs:
     - name: test migrate
       run: npm run init && npm run migrate
         
-        
-        
+name: Check
+on:
+  push:
+    branches: [main]
